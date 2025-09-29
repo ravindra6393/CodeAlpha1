@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Image Gallery</title>
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <h1 class="title">Image Gallery</h1>
+
+  <!-- Filter Buttons -->
+  <div class="filters">
+    <button data-filter="all" class="active">All</button>
+    <button data-filter="nature">Nature</button>
+    <button data-filter="city">City</button>
+    <button data-filter="animal">Animals</button>
+  </div>
+
+  <!-- Gallery Grid -->
+  <div class="gallery">
+    <img src="C:\Users\rchau\Desktop\download.jpg" alt="Nature 1" class="gallery-img" data-category="nature">
+    <img src="C:\Users\rchau\Desktop\download (1).jpg" alt="Nature 2" class="gallery-img" data-category="nature">
+    <img src="C:\Users\rchau\Desktop\download (2).jpg" alt="City 1" class="gallery-img" data-category="city">
+    <img src="C:\Users\rchau\Desktop\download (3).jpg" alt="City 2" class="gallery-img" data-category="city">
+    <img src="C:\Users\rchau\Desktop\download (4).jpg" alt="Animal 1" class="gallery-img" data-category="animal">
+    <img src="C:\Users\rchau\Desktop\image5.jpg" alt="Animal 2" class="gallery-img" data-category="animal">
+  </div>
+
+  <!-- Lightbox View -->
+  <div class="lightbox" id="lightbox">
+    <span class="close" id="closeBtn">&ti
